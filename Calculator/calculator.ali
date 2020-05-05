@@ -1,0 +1,59 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U calculator%b		calculator.adb		f9a7b117 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20190108095404 291912d5 ada.exceptions%s
+D a-flteio.ads		20170908151217 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190108095404 119b8fb3 ada.streams%s
+D a-tags.ads		20190108095404 491b781d ada.tags%s
+D a-textio.ads		20190108095404 881db35a ada.text_io%s
+D a-tiflio.ads		20190108095404 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D calculator.adb	20200505183010 903045ed calculator%b
+D interfac.ads		20190108095404 5ab55268 interfaces%s
+D i-cstrea.ads		20190108095404 e53d8b8e interfaces.c_streams%s
+D system.ads		20190108095404 085b6ffb system%s
+D s-crtl.ads		20190108095404 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190108095404 54135002 system.exception_table%s
+D s-ficobl.ads		20190108095404 078245e4 system.file_control_block%s
+D s-imgrea.ads		20190108095404 c7a851e2 system.img_real%s
+D s-parame.ads		20190108095404 48ec542b system.parameters%s
+D s-secsta.ads		20190108095404 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190108095404 a7318a92 system.soft_links%s
+D s-stache.ads		20190108095404 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190108095404 09bd3940 system.standard_library%s
+D s-stoele.ads		20190108095404 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190108095404 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190108095404 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190108095404 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r6 11r17 12r17 13r17 14r17 20r33 23r33 26r33 29r33
+. 33r33
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 10|2w10 12r21 14r21
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 11r21 13r21 20r37 23r37 26r37 29r37 33r37
+206U14*Get 10|13s29
+263U14*Put_Line 10|11s29 20s45 23s45 26s45 29s45 33s45
+X 8 a-tiflio.ads
+57U14*Get 10|12s35[3|20] 14s35[3|20]
+X 10 calculator.adb
+4U11*calculator 4b11 37l5 37t15
+5f9 first_operand{float} 12m39 19r43 22r43 25r43 28r43
+6f9 second_operand{float} 14m39 19r59 22r59 25r59 28r59
+7f9 result{float} 19m33 20r66 22m33 23r66 25m33 26r66 28m33 29r66
+8e9 operator{character} 13m33 17r22
+
